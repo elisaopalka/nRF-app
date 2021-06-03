@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nrf-app-dev-154839-authRole",
+      "UnauthRoleArn": "arn:aws:iam::224283719267:role/amplify-nrf-app-dev-154839-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::224283719267:role/amplify-nrf-app-dev-154839-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-nrf-app-dev-154839-deployment",
+      "UnauthRoleName": "amplify-nrf-app-dev-154839-unauthRole",
+      "StackName": "amplify-nrf-app-dev-154839",
+      "StackId": "arn:aws:cloudformation:us-east-1:224283719267:stack/amplify-nrf-app-dev-154839/b4170420-c4a4-11eb-ad1a-0a292b885373",
+      "AmplifyAppId": "d2524ekej5jfoj"
+    }
+  }
+}

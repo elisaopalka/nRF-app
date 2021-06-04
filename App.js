@@ -3,7 +3,7 @@ import config from './aws-exports'
 Amplify.configure(config)
 
 import React, { useState, useEffect } from 'react'
-import { Text, View, TextInput, Button } from 'react-native'
+import { Text, View, TextInput, Button, ScrollView } from 'react-native'
 import { DataStore } from '@aws-amplify/datastore'
 import { Message } from './src/models'
 
@@ -34,7 +34,7 @@ function App() {
   }
 
   return (
-    <View style={container}>
+    <ScrollView style={container}>
       <Text style={heading}>Leave a Message Here!!</Text>
       <TextInput
           onChangeText={v => onChangeText('title', v)}
@@ -67,7 +67,7 @@ function App() {
           </View>
         ))
       }
-    </View>
+    </ScrollView>
   )
 }
 
